@@ -1,12 +1,22 @@
 package org.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
         //todo declare variables a,b,c,y,discriminant,axisOfSymmetry,ParabolaFacing,x,y
         double a,b,c,discriminant,axisOfSymmetry,x,y;
         String parabolaFacing;
+        Scanner radar;
         //todo initialize manually
+        radar= new Scanner(System.in);
+        System.out.println("Give me an A");
+        a= radar.nextDouble();
+        System.out.println("Give me an B");
+        b= radar.nextDouble();
+        System.out.println("Give me an C");
+        c= radar.nextDouble();
         a=5;
         b=3;
         c=1;
